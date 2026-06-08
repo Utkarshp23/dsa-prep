@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Get-ChildItem \"e:\\\\dsa-prep\" -ErrorAction SilentlyContinue; if \\(-not \\(Test-Path \"e:\\\\dsa-prep\"\\)\\) { \"Directory doesn't exist or is empty\" } else { \"Directory exists\" })"
-    ]
-  }
-}
